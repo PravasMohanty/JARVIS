@@ -1,43 +1,33 @@
-*Jarvis: Your Personal Virtual Assistant*
-Overview
-Jarvis is a personal virtual assistant designed to assist users with various tasks using voice commands. Built with Python, this assistant utilizes libraries such as pyttsx3 for text-to-speech conversion, speech_recognition for capturing voice input, and wikipedia for fetching information. It can perform actions like opening applications, searching the web, playing music, and providing information.
+# Jarvis: Personal Virtual Assistant
 
-Features
-Voice Interaction: Communicate with Jarvis using voice commands.
-Web Search: Search Wikipedia and browse websites like YouTube and Google.
-Music Control: Play songs from your local music directory or search for them on Spotify.
-Application Management: Open applications like WhatsApp, Microsoft VS Code, and access folders such as Downloads and Documents.
-Time Announcement: Get the current time verbally.
-Requirements
-To run Jarvis, ensure you have the following libraries installed:
+## Overview
 
-pyttsx3
-SpeechRecognition
-wikipedia
-webbrowser
-os
-subprocess
-random
+Jarvis is a personal virtual assistant built using Python. It leverages speech recognition and text-to-speech capabilities to interact with users and perform various tasks such as searching Wikipedia, opening websites, playing music, and managing files.
+
+## Features
+
+- **Voice Interaction:** The assistant can take voice commands and respond using text-to-speech.
+- **Wikipedia Search:** Search and retrieve summaries from Wikipedia.
+- **Web Browsing:** Open popular websites like YouTube and Google.
+- **Music Control:** Play songs from a specified directory or stream music from Spotify.
+- **Time Reporting:** Retrieve and announce the current time.
+- **File Management:** Open directories such as Downloads and Programming folders.
+- **Application Launching:** Launch applications like Microsoft Visual Studio Code and WhatsApp.
+
+## Requirements
+
+- Python 3.x
+- Required libraries:
+  - `pyttsx3`
+  - `datetime`
+  - `speech_recognition`
+  - `wikipedia`
+  - `webbrowser`
+  - `os`
+  - `subprocess`
+  - `random`
+
 You can install the required libraries using pip:
 
-bash
-Copy code
-pip install pyttsx3 SpeechRecognition wikipedia-api
-Installation
-Clone the repository or download the source code.
-Ensure you have Python installed (preferably Python 3.x).
-Install the required libraries as mentioned above.
-Update the file paths in the script to match your system (e.g., music directory, application paths).
-Usage
-Run the jarvis.py script.
-Follow the audio prompts to interact with Jarvis.
-Use voice commands such as:
-"Open YouTube"
-"Play a song"
-"What time is it?"
-"Open WhatsApp"
-Example Commands
-"Wikipedia [topic]": Search for information on Wikipedia.
-"Open YouTube": Launch the YouTube website.
-"Play [song name]": Search for the song on Spotify.
-"Open [application]": Launch specified applications.
+```bash
+pip install pyttsx3 SpeechRecognition wikipedia webbrowser
